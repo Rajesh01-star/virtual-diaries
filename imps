@@ -1,0 +1,26 @@
+-> All of my own scripts I store in "/usr/local/bin"
+-> All the scripts starts with '#!' 
+-> and to make a script execuatable you have to run 'chmod +x file name' then 'chmod 777 file name'
+-> if you want to access the variables as you give run a script and the variables are right after the script name then you can access it by using '$1,$3,$4....' 
+->the scripts starts with #
+ and to make a script execuatable you have to run chmod +x file name then chmod 777 file name >> imps
+
+->ffmpeg -f x11grab -s 1920x1080 -i :0.0 Videos/Screencasts/vibha.mp4 // without sound
+->ffmpeg -f x11grab -s 1920x1080 -i :0.0 -f alsa -ac 2 -i pulse -acodec aac -strict experimental try.mp4 // with sound
+
+/* move -t destination `ls | grep "pattern"` */
+	mv -t Videos/Screencasts `ls | grep ".mp4\|.mkv"`
+/* Grep files with multiple patterns */
+	grep "pattern1\|patternN"
+
+/* When NPM stops working i.e -> npm ERR! Cannot read properties of null (reading 'pickAlgorithm') */
+	npm cache clear --force                         (master)mine
+npm i -g @sap/cds-dk
+npm uninstall -g create-react-app; npm cache clear --force; npm install;npx create-react-app myapp
+->setbg \'location\' to set backgound manually without sxiv Ctrl+x,w
+->ytplay.sh 'url' to play youtube video
+->curl -F 'file=@name' 0x0.st to send file to server
+-> toggle floating mode = ctrl+super+space
+	move the floating window = shift+super+arrows
+-> flameshot screen -p location (to take a screenshot)
+->xclip -selection clipboard (to pipe something to the clipboard)
